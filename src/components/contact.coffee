@@ -1,42 +1,25 @@
-React    = require('react')
+React         = require('react')
 {Map, Marker} = require('google-maps-react')
 
-ContactScreen = ->
-  <div className="pages">
-      <h1>O nás</h1>
-      <p><strong>Duhová sprcha </strong> je náš splněný sen. Jsme Klára a Zuzka, dvě kamarádky, které našly
-         společnou cestu v životním poslání, pomáhat lidem …najít cestu k sobě.</p>
-      <p>Klára se věnuje hlavně péči o duši a čištění, a to pomocí napojení a pastelek :0) </p>
-      <p>Zuzka je vystudovaný masér (klasická a sportovní masáž, havajská Lomi-Lomi,
-         reflexní masáž chodidel atd. – seznam se neustále rozrůstá). Věnuje se jak
-         masážím – péče o tělo, tak i terapii pastelkami a energetickému čištění osob a
-         prostor – péče o duši. </p>
-
-      <p> <strong> Kontakt: </strong> </p>
-      <p> Zuzka: 604 790 676 </p>
-      <p> Klára: 603 104 249 </p>
-      <p><strong> Provozovna: </strong></p>
-      <p>Na Dolinách 41 </p>
-      <p>Praha 4 - Nusle </p>
-
-      <h2> Jak se k nám dostanete: </h2>
-      <p> Zastávka tramvaje 17,3,2,21 Podolská vodárna a ulicí Podolská, Sinkulova, Na
-        Dolinách cca 7 minut pěšky nahoru do kopce, po levé straně Duhová sprcha.</p>
-      <p> Metro Pražského Povstání, trasa C, ulicí Na Dolinách dolů, po pravé straně,
-          Duhová spracha </p>
-      <p>Auto se dá v okolí zaparkovat přímo na hlavní ulici Na Dolinách </p>
-      <p>Zvonek DIPURAMED </p>
-      <br/>
+Contact = ->
+  <div>
+    <h1> <strong> Rezervace - 737 815 130 </strong></h1>
+    <p> Restaurace Dobromysl<br/>
+    1. máje 829/10<br/>
+    779 00 Olomouc<br/> <br/>
+    (Mezi zastávkami <br/>
+    Nám. republiky a U Dómu<br/>
+    naproti Domu armády)<br/> </p>
 
       <Map google={window.google}
         style={position: 'absolute'}
         className={'map'}
-        initialCenter={{lat: 50.057307 , lng: 14.42969}}
-        zoom={18}>
+        initialCenter={{lat: 49.596505, lng: 17.258909}}
+        zoom={20}>
         <Marker
-          name={'Duhová sprcha'}
-          position={{lat: 50.057307 , lng: 14.42969}} />
+          name={'Restaurace Dobromysl'}
+          position={{lat: 49.596505, lng: 17.258909}} />
       </Map>
   </div>
 
-module.exports = { ContactScreen }
+module.exports = {Contact}

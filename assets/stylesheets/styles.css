@@ -1,3 +1,5 @@
+@import "node_modules/react-image-gallery/styles/css/image-gallery.css";
+
 .map {
   position: relative !important;
   width: 75% !important;
@@ -8,86 +10,108 @@
   border: solid 1px;
 }
 
-.logo{
-  background-image: url(/assets/images/pozadi.png);
-  background-size: cover;
-  display:block;
-  margin: 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  max-width: 100%;
-}
 .img-responsive{
-  max-width: 25%;
+  max-width: 35%;
   margin: 0 auto;
 }
 
-h1{
-  text-align: center;
-  font-size: 350%;
+.background{
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: rgb(56,212,17);
 }
 
-.frontPage{
-  text-align: center;
-}
-
-.frontHeader{
-  font-family: 'MTCORSVA';
-  font-style: italic;
-  color: rgb(255,0,255);
-  font-size: 700%;
-}
-#navigation{
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  z-index: 1030;
-  font-family: "andalus";
+.navbar{
+  background-color: green;
+  margin-bottom: 0;
+  border: 0;
+  font-family: Cambria, Georgia, serif;
+  font-size: 14pt;
+  color: white;
 }
 
 .pages{
-  background-color: white;
-  border-radius: 25px;
-  height: 100%;
+  font-size: 14pt;
+  flex: 100%;
+  font-family: Cambria, Georgia, serif;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-left: 2%;
+  padding-left: 7%;
   padding-right: 2%;
-  font-family: "andalus";
-  font-size: 150%;
 }
 
-.kombinovana-terapie{
-  background-color: rgba(255, 165, 0, 0.31);
-  min-height: 100vh;
+.mainContainer{
+  background-color: white !important;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
   max-height: 100%;
-
-}
-.kontakt{
-  background-color: rgba(22, 236, 40, 0.11) !important;
   min-height: 100vh;
-  max-height: 100%;
-}
-
-.masaze{
-  background-color: rgba(0, 128, 255, 0.31);
-  min-height: 100vh;
-  max-height: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
-.energeticke-cisteni-prostor{
-  background-color: rgba(128, 0, 128, 0.31);
-  min-height: 100vh;
-  max-height: 100%;
-}
-.uvodni-strana{
-  background-image: url(/assets/images/vesmir.png);
-  background-size: cover;
-  height: 100vh;
+h1,h2{
+  font-family: maiandra;
+  color: rgb(138, 184, 51);
 }
 
 @font-face {
-	font-family: 'MTCORSVA';
-	src: url('./MTCORSVA.eot');
-	src: local('MTCORSVA'), url('./MTCORSVA.woff') format('woff'), url('./MTCORSVA.ttf') format('truetype');
+  font-family: maiandra;
+  src: url(Maiandra-GD_29342.ttf);
+}
+
+.bottomPanel{
+  background-color: green;
+  display: block;
+}
+
+.navbar-default a:hover{
+  background-color: green !important;
+}
+
+.navbar-nav>.open>a{
+  border: 0;
+  background-color: green !important;
+}
+
+.navbar a{
+  color: white !important;
+}
+
+.nav-tabs.nav-justified>li>a{
+  border-bottom: 0 !important;
+}
+
+.nav-tabs a:hover{
+  color: rgb(56,212,17) !important;
+  border: 0;
+}
+
+.dropdown-menu{
+  background-color: green;
+  color: white;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.row-centered{
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.col-centered {
+    display: inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align: center;
+    /* inline-block space fix */
+    margin: 0 auto;
+    align-items: center;
+}
+.thumbnail{
+    border: 0 none;
+    box-shadow: none;
+    margin: 0 auto ;
+    cursor: pointer;
 }

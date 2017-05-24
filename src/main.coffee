@@ -1,47 +1,57 @@
-React    = require('react')
-ReactDOM = require('react-dom')
+React         = require('react')
+ReactDOM      = require('react-dom')
 
 createHistory = require('history').createBrowserHistory
-history = createHistory()
+history       = createHistory()
+{Navigation}  = require('./components/navigation')
+{Logo}        = require('./components/logo')
+{Menu}        = require('./components/menu')
+{Gallery}     = require('./components/gallery')
+{AboutUs}     = require('./components/aboutUs')
+{Contact}     = require('./components/contact')
+{BottomPanel} = require('./components/bottom-panel')
+{Links}       = require('./components/links')
+Delivery      = require('./components/delivery')
+imagesSpaces  = require('./components/images-spaces')
+imagesFood    = require('./components/images-food')
+DayliMenu = require('./components/dayli-menu')
 
-{NavigationDropdown} =require('./components/navigation')
-{ContactScreen} = require('./components/contact')
-{TerapyScreen}  = require('./components/terapy')
-{MassageScreen} = require('./components/massage')
-{EnergyScreen}  = require('./components/energy')
-{FrontScreen} = require('./components/front')
-{CombinatedTerapy} = require('./components/combinated.coffee')
-{Logo} = require('./components/logo')
+class RootComponent extends React.Component
 
-RootComponent = React.createClass
-  getInitialState: ->
+  constructor: ->
     { pathname } = window.location
-    shownScreen: pathname[1..] || 'uvodni-strana'
-  setScreen: (id) ->
+    @state={shownScreen: pathname[1..] || 'o-nas'}
+  setScreen: (id) =>
     @setState(shownScreen: id)
     location = window.location
     location.pathname = '/' + id
     history.push(location)
   render: ->
     mainComponent = switch @state.shownScreen
+      when 'o-nas'
+        <AboutUs />
       when 'kontakt'
-        <ContactScreen />
-      when 'terapie-pastelkou'
-        <TerapyScreen />
-      when 'masaze'
-        <MassageScreen />
-      when 'energeticke-cisteni-prostor'
-        <EnergyScreen />
-      when 'uvodni-strana'
-        <FrontScreen />
-      when 'kombinovana-terapie'
-        <CombinatedTerapy />
-    <div className={@state.shownScreen}>
-      <NavigationDropdown onSetScreen={@setScreen} />
-
-      <div className="container" >
-          <Logo onSetScreen={@setScreen}/>
-      {mainComponent}
+        <Contact />
+      when 'menu'
+        <Menu />
+      when 'galerie-prostory'
+        <Gallery images={imagesSpaces} />
+      when 'galerie-jidlo-a-piti'
+        <Gallery images={imagesFood} />
+      when 'odkazy'
+        <Links />
+      when 'rozvoz'
+        <Delivery />
+      when 'denni-menu'
+        <DayliMenu />
+    <div className={@state.shownScreen + ' background'}>
+      <div className="container mainContainer">
+        <Logo />
+        <Navigation onSetScreen={@setScreen}  />
+          <div className="pages">
+            {mainComponent}
+          </div>
+        <BottomPanel class="align-sefl-end"/>
       </div>
     </div>
 

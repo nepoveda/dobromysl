@@ -15,7 +15,8 @@
     "react": "^15.0.1",
     "react-bootstrap": "^0.30.6",
     "react-dom": "^15.0.1",
-    "react-google-maps": "^6.0.1"
+    "react-google-maps": "^6.0.1",
+    "react-overlays": "^0.6.12"
   },
   "devDependencies": {
     "browserify": "^14.0.0",
@@ -32,6 +33,7 @@
   "scripts": {
     "watch": "NODE_ENV=development watchify  -v --extension=\".coffee\" src/main.coffee -o build/main.js",
     "build": "NODE_ENV=production browserify -v --extension=\".coffee\" src/main.coffee -o build/main.js",
+    "build-dev": "NODE_ENV=development browserify -v --extension=\".coffee\" src/main.coffee -o build/main.js",
     "update": "npm-check-updates -u && npm install",
     "backend": "coffee -c backend/ && nodejs backend/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
