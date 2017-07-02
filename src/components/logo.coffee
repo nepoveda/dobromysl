@@ -3,7 +3,7 @@ React    = require('react')
 
 Logo = (props) ->
   <div className="logo">
-    <Image src="assets/images/logo.png"  responsive />
+    <Image src="assets/images/logo.jpg"  responsive />
   </div>
 
 module.exports = {Logo}

@@ -69,6 +69,21 @@ images = [
     originalAlt: "Salónek"
     description: "Salónek"
   }
+  {
+    original: '../../assets/images/gallery/spaces/15.jpg'
+    originalAlt: "Vnitřní prostory"
+    description: "Vnitřní prostory"
+  }
+  {
+    original: '../../assets/images/gallery/spaces/16.jpg'
+    originalAlt: "Vnitřní prostory"
+    description: "Vnitřní prostory"
+  }
+  {
+    original: '../../assets/images/gallery/spaces/17.jpg'
+    originalAlt: "Venkovní prostory"
+    description: "Venkovní prostory"
+  }
 ]
 
 module.exports = images

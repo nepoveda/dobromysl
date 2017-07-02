@@ -56,6 +56,10 @@ h1,h2{
   color: rgb(138, 184, 51);
 }
 
+.front-text{
+  font-size: 18pt;
+}
+
 @font-face {
   font-family: maiandra;
   src: url(Maiandra-GD_29342.ttf);

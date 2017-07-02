@@ -7,9 +7,14 @@ Contact = ->
     <p> Restaurace Dobromysl<br/>
     1. máje 829/10<br/>
     779 00 Olomouc<br/> <br/>
-    (Mezi zastávkami <br/>
-    Nám. republiky a U Dómu<br/>
-    naproti Domu armády)<br/> </p>
+    Email: <a href="mailto: dobromysl@araboth.cz"> dobromysl@araboth.cz</a></p>
+
+    <p><strong> Provozovatel: </strong> <br/>
+      Araboth s.r.o <br/>
+      U stavu 195, <br/>
+      783 14 Bohuňovice <br/>
+      Ičo:052 866 38 <br/>
+    </p>
 
       <Map google={window.google}
         style={position: 'absolute'}

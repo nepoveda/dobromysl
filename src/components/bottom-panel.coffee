@@ -13,6 +13,10 @@ BottomPanel = ->
             <strong> Rezervace:</strong> <br/>
             +420 737 815 130
           </NavItem>
+          <NavItem>
+            <strong> Email:</strong> <br/>
+            <a href="mailto: dobromysl@araboth.cz"> dobromysl@araboth.cz</a>
+          </NavItem>
       </Nav>
           <Nav pullRight>
             <NavItem target="_blank" href="https://www.facebook.com/restauracedobromysl/">

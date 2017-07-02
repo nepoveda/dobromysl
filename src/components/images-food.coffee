@@ -39,6 +39,26 @@ images = [
     originalAlt: "Zebra dort s jahodovým coulis"
     description: "Zebra dort s jahodovým coulis"
   }
+  {
+    original: '../../assets/images/gallery/food/9.jpg'
+    originalAlt: "Tortila se zeleninou a žampiony"
+    description: "Tortila se zeleninou a žampiony"
+  }
+  {
+    original: '../../assets/images/gallery/food/10.jpg'
+    originalAlt: "Hovězí burger"
+    description: "Hovězí burger"
+  }
+  {
+    original: '../../assets/images/gallery/food/11.jpg'
+    originalAlt: "Kuřecí steak na tymiánu"
+    description: "Kuřecí steak na tymiánu"
+  }
+  {
+    original: '../../assets/images/gallery/food/12.jpg'
+    originalAlt: "Tortila s kuřecím masem"
+    description: "Tortila s kuřecím masem"
+  }
 ]
 
 module.exports = images

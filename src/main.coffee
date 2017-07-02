@@ -14,7 +14,6 @@ history       = createHistory()
 Delivery      = require('./components/delivery')
 imagesSpaces  = require('./components/images-spaces')
 imagesFood    = require('./components/images-food')
-DayliMenu = require('./components/dayli-menu')
 
 class RootComponent extends React.Component
 
@@ -42,8 +41,6 @@ class RootComponent extends React.Component
         <Links />
       when 'rozvoz'
         <Delivery />
-      when 'denni-menu'
-        <DayliMenu />
     <div className={@state.shownScreen + ' background'}>
       <div className="container mainContainer">
         <Logo />

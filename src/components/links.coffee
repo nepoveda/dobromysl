@@ -7,10 +7,10 @@ Links = ->
     <Grid fluid={true}>
       <Row className="row-centered">
         <Col xs={6} md={3} className="col-centered">
-          <Thumbnail target="_blank" src="assets/images/loga/dame-jidlo.png"  href="https://www.damejidlo.cz/restaurace-dobromysl#menu" />
+          <Thumbnail target="_blank" src="assets/images/loga/krusnohor.jpg" href="http://www.krusnohor.eu/"  />
         </Col>
         <Col xs={6} md={3} className="col-centered">
-          <Thumbnail target="_blank" src="assets/images/loga/krusnohor.jpg" href="http://www.krusnohor.eu/"  />
+          <Thumbnail target="_blank" src="assets/images/loga/dame-jidlo.png"  href="https://www.damejidlo.cz/restaurace-dobromysl#menu" />
         </Col>
         <Col xs={6} md={3} className="col-centered">
           <Thumbnail target="_blank" src="assets/images/loga/sirupy.png" href="http://www.batkovysirupy.cz/cz/" />
@@ -22,6 +22,9 @@ Links = ->
         </Col>
         <Col xs={6} md={3} className="col-centered">
           <Thumbnail target="_blank" src="assets/images/loga/absinth.jpg" href="http://www.bairnsfather.net/" />
+        </Col>
+        <Col xs={6} md={3} className="col-centered">
+          <Thumbnail target="_blank" src="assets/images/loga/bezlepkova-logo.png" href="http://www.bezlepkova.com" />
         </Col>
       </Row>
     </Grid>
