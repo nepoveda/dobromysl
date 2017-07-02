@@ -16,10 +16,10 @@ AboutUs = ->
       <li>Baťkovy bylinkové sirupy </li>
       <li>Zelený ječmen Green Ways </li>
       <li>Příjemné prostředí </li>
-      <li>Nevadí nám děti a máme rádi psy a jiná zvířata.  </li>
-      <li>Zahrát si u nás můžete deskové a karetní hry.  </li>
+      <li>Nevadí nám děti a máme rádi psy a jiná zvířata  </li>
+      <li>Zahrát si u nás můžete deskové a karetní hry  </li>
       <li>Ale máme i internet </li>
-      <li> Kapacita naší restaurace je více než 60 míst včetně zahrádky a sklepních prostor. </li>
+      <li> Kapacita naší restaurace je více než 60 míst včetně zahrádky a sklepních prostor </li>
   </div>
 
 module.exports = {AboutUs}
