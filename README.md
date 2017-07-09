@@ -9,18 +9,18 @@ apt install git curl
 
 - clone the repo
 ```bash
-git clone git@github.com:nepoveda/duhova-sprcha.git
+git clone git@github.com:nepoveda/dobromysl.git
 ```
 
 or
 
 ```bash
-git clone https://github.com/nepoveda/duhova-sprcha.git (read only)
+git clone https://github.com/nepoveda/dobromysl.git (read only)
 ```
 
 - enter the directory
 ```bash
-cd duhova-sprcha
+cd dobromysl
 ```
 
 - install node.js with npm package manager
@@ -62,7 +62,7 @@ npm run update
 ```
 server {
   listen 80;
-  root /home/danig/Dokumenty/duhova-sprcha;
+  root /home/danig/Dokumenty/dobromysl;
   index index.html;
   try_files $uri /index.html;
   access_log  /var/log/nginx/sprcha_access.log;
