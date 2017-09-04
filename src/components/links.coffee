@@ -27,6 +27,9 @@ Links = ->
           <Thumbnail target="_blank" src="assets/images/loga/bezlepkova-logo.png" href="http://www.bezlepkova.com" />
         </Col>
       </Row>
+      <Row className="row-centered">
+          <Thumbnail target="_blank" src="http://olomouc-tour-guide.cz/upload/ruzne/tour_guide_ikonka.png" href="http://olomouc-tour-guide.cz/" />
+      </Row>
     </Grid>
   </div>
 

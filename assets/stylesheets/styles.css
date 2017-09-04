@@ -1,5 +1,9 @@
 @import "node_modules/react-image-gallery/styles/css/image-gallery.css";
 
+.openingHours {
+  width: 30%
+}
+
 .map {
   position: relative !important;
   width: 75% !important;
