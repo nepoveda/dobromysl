@@ -44,7 +44,7 @@ Contact = ->
             </tr>
             <tr>
               <td> Sobota </td>
-              <td> 11 - 21 </td>
+              <td> 11 - 17 </td>
             </tr>
           </table>
 

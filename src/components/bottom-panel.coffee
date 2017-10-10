@@ -17,6 +17,14 @@ BottomPanel = ->
             <strong> Email:</strong> <br/>
             <a href="mailto: dobromysl@araboth.cz"> dobromysl@araboth.cz</a>
           </NavItem>
+          <NavItem>
+            <strong> Provozní doba:</strong>
+          </NavItem>
+          <NavItem>
+            Po -  Út: 10 - 17 <br/>
+            St - Pá: 10 - 21 <br/>
+            So    : 11 - 17 <br/>
+          </NavItem>
       </Nav>
           <Nav pullRight>
             <NavItem target="_blank" href="https://www.facebook.com/restauracedobromysl/">

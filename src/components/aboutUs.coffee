@@ -10,9 +10,8 @@ AboutUs = ->
     </div>
 
       <h2> Co u nás najdete: </h2>
-      <li>Pivo z rodinného pivovaru Krušnohor </li>
+      <li>Bezlepkové pivo </li>
       <li>Káva Citta d’Italia – espresso </li>
-      <li>Gnome's Coffee – frenchpress, chemex </li>
       <li>Baťkovy bylinkové sirupy </li>
       <li>Zelený ječmen Green Ways </li>
       <li>Příjemné prostředí </li>
