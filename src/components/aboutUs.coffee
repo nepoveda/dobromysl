@@ -10,7 +10,7 @@ AboutUs = ->
     </div>
 
       <h2> Co u nás najdete: </h2>
-      <li>Bezlepkové pivo </li>
+      <li>Bezlepkové pivo, z rodinného pivovaru Krušnohor </li>
       <li>Káva Citta d’Italia – espresso </li>
       <li>Baťkovy bylinkové sirupy </li>
       <li>Zelený ječmen Green Ways </li>
