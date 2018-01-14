@@ -19,6 +19,7 @@ class RootComponent extends React.Component
 
   constructor: ->
     { pathname } = window.location
+    console.log(pathname)
     @state={shownScreen: pathname[1..] || 'o-nas'}
   setScreen: (id) =>
     @setState(shownScreen: id)

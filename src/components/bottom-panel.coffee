@@ -21,9 +21,9 @@ BottomPanel = ->
             <strong> Provozní doba:</strong>
           </NavItem>
           <NavItem>
-            Po -  Út: 10 - 17 <br/>
-            St - Pá: 10 - 21 <br/>
-            So    : 11 - 17 <br/>
+            Po : 10:30 - 17:00 <br/>
+            Út - Čt: 10:30 - 20:00 <br/>
+            Pá    : 10:30 - 17:00 <br/>
           </NavItem>
       </Nav>
           <Nav pullRight>

@@ -24,27 +24,31 @@ Contact = ->
           <table className="openingHours" >
             <tr>
               <td> Pondělí </td>
-              <td> 10 - 17 </td>
+              <td> 10:30 - 17:00 </td>
             </tr>
             <tr>
               <td> Úterý </td>
-              <td> 10 - 17 </td>
+              <td> 10:30 - 20:00 </td>
             </tr>
             <tr>
               <td> Středa </td>
-              <td> 10 - 21 </td>
+              <td> 10:30 - 20:00 </td>
             </tr>
             <tr>
               <td> Čtvrtek </td>
-              <td> 10 - 21 </td>
+              <td> 10:30 - 20:00 </td>
             </tr>
             <tr>
               <td> Pátek </td>
-              <td> 10 - 21 </td>
+              <td> 10:30 - 17:00 </td>
             </tr>
             <tr>
               <td> Sobota </td>
-              <td> 11 - 17 </td>
+              <td>Zavřeno</td>
+            </tr>
+            <tr>
+              <td> Neděle </td>
+              <td>Zavřeno</td>
             </tr>
           </table>
 
