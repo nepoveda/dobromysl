@@ -3,8 +3,8 @@ React    = require('react')
 Menu = ->
   <div>
     <h1> Stálé menu </h1>
-    <p> Náš nápojový lístek si můžete stáhnout <a href="/assets/menu/Napojovy-listek.docx"> zde. </a> </p>
-    <p> Náš jídelí lístek si můžete stáhnout <a href="/assets/menu/Staly-jidelni-listek-novy-fin.docx"> zde. </a> </p>
+    <p> Náš nápojový lístek si můžete stáhnout <a href="/assets/menu/Napojovy_listek.pdf"> zde. </a> </p>
+    <p> Náš jídelí lístek si můžete stáhnout <a href="/assets/menu/Staly-jidelni-listek-novy-fin.pdf"> zde. </a> </p>
     <h1>
       Denní menu
     </h1>
