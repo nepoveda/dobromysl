@@ -23,32 +23,8 @@ Contact = ->
           <strong> Provozní doba: </strong><br/>
           <table className="openingHours" >
             <tr>
-              <td> Pondělí </td>
+              <td> Pondělí - Pátek </td>
               <td> 10:30 - 17:00 </td>
-            </tr>
-            <tr>
-              <td> Úterý </td>
-              <td> 10:30 - 20:00 </td>
-            </tr>
-            <tr>
-              <td> Středa </td>
-              <td> 10:30 - 20:00 </td>
-            </tr>
-            <tr>
-              <td> Čtvrtek </td>
-              <td> 10:30 - 20:00 </td>
-            </tr>
-            <tr>
-              <td> Pátek </td>
-              <td> 10:30 - 17:00 </td>
-            </tr>
-            <tr>
-              <td> Sobota </td>
-              <td>Zavřeno</td>
-            </tr>
-            <tr>
-              <td> Neděle </td>
-              <td>Zavřeno</td>
             </tr>
           </table>
 

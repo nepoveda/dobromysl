@@ -45,6 +45,7 @@ class RootComponent extends React.Component
     <div className={@state.shownScreen + ' background'}>
       <div className="container mainContainer">
         <Logo />
+        <div className="pages"><h3 align="center">K 11.5 zavíráme naši restauraci. Moc děkujeme všem, kteří nás podpořili.</h3></div>
 
         <Navigation onSetScreen={@setScreen} />
 
