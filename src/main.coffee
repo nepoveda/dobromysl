@@ -45,10 +45,13 @@ class RootComponent extends React.Component
     <div className={@state.shownScreen + ' background'}>
       <div className="container mainContainer">
         <Logo />
-        <Navigation onSetScreen={@setScreen}  />
-          <div className="pages">
-            {mainComponent}
-          </div>
+
+        <Navigation onSetScreen={@setScreen} />
+
+        <div className="pages">
+          {mainComponent}
+        </div>
+
         <BottomPanel class="align-sefl-end"/>
       </div>
     </div>

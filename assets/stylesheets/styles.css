@@ -25,14 +25,36 @@
   background-color: rgb(56,212,17);
 }
 
-.navbar{
-  background-color: green;
-  margin-bottom: 0;
-  border: 0;
-  font-family: Cambria, Georgia, serif;
-  font-size: 14pt;
-  color: white;
-}
+/* .navbar{ */
+/*   background-color: green; */
+/*   margin-bottom: 0; */
+/*   border: 0; */
+/*   font-family: Cambria, Georgia, serif; */
+/*   font-size: 14pt; */
+/*   color: white; */
+/* } */
+
+/* .navbar-default a:hover{ */
+/*   background-color: green !important; */
+/* } */
+
+/* .navbar-nav>.open>a{ */
+/*   border: 0; */
+/*   background-color: green !important; */
+/* } */
+
+/* .navbar a{ */
+/*   color: white !important; */
+/* } */
+
+/* .nav-tabs.nav-justified>li>a{ */
+/*   border-bottom: 0 !important; */
+/* } */
+
+/* .nav-tabs a:hover{ */
+/*   color: rgb(56,212,17) !important; */
+/*   border: 0; */
+/* } */
 
 .pages{
   font-size: 14pt;
@@ -72,28 +94,6 @@ h1,h2{
 .bottomPanel{
   background-color: green;
   display: block;
-}
-
-.navbar-default a:hover{
-  background-color: green !important;
-}
-
-.navbar-nav>.open>a{
-  border: 0;
-  background-color: green !important;
-}
-
-.navbar a{
-  color: white !important;
-}
-
-.nav-tabs.nav-justified>li>a{
-  border-bottom: 0 !important;
-}
-
-.nav-tabs a:hover{
-  color: rgb(56,212,17) !important;
-  border: 0;
 }
 
 .dropdown-menu{
